@@ -19,7 +19,7 @@
  */
 
 // EDIT: Make this unique. Example: YourDevName\YourPluginName;
-namespace IlJester\Acod;
+namespace IlJester\Dpt;
 
 // EDIT: URL where Update Manager is installed; with trailing slash!
 const UPDATE_SERVER = 'https://www.iljester.com/';
@@ -32,7 +32,7 @@ const USE_DIRECTORY = true;
 // EDIT: Comment this out and fill with the first part of the url
 //       of your Download link to make sure that updates
 //       are served from your trusted source.
-const SECURE_SOURCE = 'https://github.com/iljester/acod/';
+const SECURE_SOURCE = 'https://github.com/iljester/dadi-plugin-test/';
 
 // EDIT: plugin or theme?
 const UPDATE_TYPE = 'plugin';
