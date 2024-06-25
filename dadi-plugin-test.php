@@ -22,6 +22,7 @@ if( ! class_exists('UpdateClient')) {
  
 function dadi_plugin_test( $content ) {
 	$content .= '<div class="dadi-plugin-test">Hello World!</div>';
+	$content .= 'Pistacchio';
 	return $content;
 }
 add_filter('the_content', 'dadi_plugin_test');
