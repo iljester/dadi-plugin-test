@@ -7,7 +7,7 @@
  * Plugin Name:       Dadi Plugin Test
  * Plugin URI:        https://www.iljester.com/portfolio/dadi-plugin-test
  * Description:       This is only a plugin test
- * Version:           1.7
+ * Version:           1.8
  * Author:            Il Jester
  * Author URI:        https://https://www.iljester.com/
  * License:           GPL-2.0+
@@ -22,7 +22,7 @@ if( ! class_exists('UpdateClient')) {
  
 function dadi_plugin_test( $content ) {
 	$content .= '<div class="dadi-plugin-test">Hello World!</div>';
-	$content .= 'Pistacchio';
+	$content .= 'Hello';
 	return $content;
 }
 add_filter('the_content', 'dadi_plugin_test');
